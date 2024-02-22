@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Inter,  sans-serif;
+    background-color: #23252C;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+header,
+header .portrait,
+main,
+footer {
+    width: 317px;
+}
+
+header,
+header .btn-container,
+main {
+    display: flex;
+}
+
+header,
+main {
+    flex-direction: column;
+}
+
+header,
+main {
+    background-color: #1A1B21;
+}
+
+
+/* Header */
+header,
+header .portrait {
+    border-radius: 20px 20px 0 0;   
+}
+
+header {
+    align-items: center;
+    margin: 2em auto 0;     
+}
+
+header .portrait {
+    height: 317px;
+    object-fit: cover;    
+}
+
+header .name {
+    font-size: 1.55rem;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+    margin: 1em auto 0;
+}
+
+header .job-title {
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    color: #F3BF99;
+    font-size: 0.82rem;
+}
+
+header .phone {
+    margin-top: .5em;
+    font-size: 0.82rem;
+}
+
+header .btn-container {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: .85em;
+    font-weight: 600;
+}
+
+header .fa-solid, 
+header .fa-brands{
+    margin-right: 5px;
+}
+
+header .email-btn,
+header .linkedIn-btn {
+    width: 115px;
+    text-align: center;
+    padding: 0.5em 1.5em;
+    border-radius: 5px;
+}
+
+header .email-btn {
+    margin-right: 1.5em;
+    color: #374151;
+    background: #FFFFFF;   
+}
+
+header .linkedIn-btn {
+    color: #FFFFFF;
+    background-color: #5093E2;
+}
+
+/* header ends 
+   main */
+
+main,
+footer {
+    padding: 1em 2em;
+}
+
+main {
+    
+    margin: 0 auto;
+    line-height: 1.3;
+}
+
+main h3 {
+    font-size: 1.2rem;
+    color: #F5F5F5;
+    margin: 0;
+}
+
+main p {
+    font-size: 0.75rem;
+    color: #DCDCDC;
+    margin-top: .5em;
+    padding-bottom: 1.2em;
+    border-bottom: 1px solid gray;
+}
+
+/* main ends 
+   footer */
+
+footer {
+    height: 64px;
+    margin: -0.7em auto 2em;
+    border-radius: 0 0 20px 20px;
+    background-color: #161619;
+}
+
+
+.github-btn {
+    display: block;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    width: 247px;
+    margin: -0.2em auto 0;
+    padding: 0.5em 1.5em;
+    border-radius: 15px;
+    background: #918E9B;
+}
+
+footer a .fa-brands {
+    margin-right: 0.3em;
+}
+
+footer a .fa-primary-color {
+    color: black;
+}
+
+
+a:hover {
+    color: black;
+    background-color: rgb(229, 238, 128);
+}

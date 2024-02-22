@@ -41,6 +41,12 @@ main {
     background-color: #1A1B21;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
 
 /* Header */
 header,
@@ -50,7 +56,7 @@ header .portrait {
 
 header {
     align-items: center;
-    margin: 2em auto 0;     
+    margin: 0 auto;     
 }
 
 header .portrait {

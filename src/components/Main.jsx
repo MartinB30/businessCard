@@ -5,7 +5,7 @@ export default function Main() {
         <main>
             <section>
                 <h3>About</h3>
-                <p>I am a junior software developer with a particular interest in technology and strife to continually increase my profiency in both backend aswell as frontend development. </p>
+                <p>I am a junior software developer with a particular interest in technology and strive to continually increase my profiency in both backend aswell as frontend development. </p>
             </section>
             <section>
                 <h3>Interests</h3>
